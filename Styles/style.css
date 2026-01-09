@@ -96,6 +96,7 @@ main {
   margin: 0px 120px 120px;
   /* background-color: ; */
 }
+/* -------------------------------------------------Card container starts here */
 .card-container {
   background-color: #f7f6f2;
 }
@@ -146,7 +147,7 @@ main {
   width: 300px;
 }
 
-/* The solution section starts */
+/* -------------------------------------------------The solution section starts */
 
 .solution-container {
   margin-top: 120px;
@@ -184,4 +185,22 @@ main {
 }
 .checklist ul li img {
   padding-top: 15px;
+}
+
+/* -------------------------------------------------Early access notice section starts here */
+.early-access-section {
+  background-color: #f7f6f2;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.early-access-section h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.early-access-section-para {
+  color: rgba(98, 115, 130, 1);
+  /* font-size: small; */
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
