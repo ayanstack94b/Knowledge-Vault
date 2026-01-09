@@ -90,3 +90,58 @@ nav ul li a {
   padding-bottom: 30px;
   text-align: center;
 }
+/* ===========================================Main section===================================== */
+/* main */
+main {
+  margin: 0px 120px 120px;
+  /* background-color: ; */
+}
+.card-container {
+  background-color: #f7f6f2;
+}
+.card-container-head {
+  text-align: center;
+}
+.card-container-head h1 {
+  padding-top: 100px;
+  /* padding-bottom: 50px; */
+  font-size: 50px;
+  font-weight: 700;
+  /* line-height: 58px; */
+}
+.card-container-head p {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  color: rgba(98, 115, 130, 1);
+}
+.flex-cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card img {
+  background: rgba(249, 85, 85, 1);
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+}
+.card {
+  text-align: center;
+  /* border: 1px solid red; */
+  padding: 83px 24px 21px;
+  width: 322px;
+  height: 140px;
+  background-color: #ffffff;
+  border-radius: 8px 8px 0px 0px;
+}
+.card-head {
+  font-size: 24px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.card-text {
+  font-size: 15px;
+  color: rgba(98, 115, 130, 1);
+  width: 300px;
+}
