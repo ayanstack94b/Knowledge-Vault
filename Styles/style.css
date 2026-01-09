@@ -32,6 +32,7 @@
 /*------------------------------------- Navbar */
 nav {
   width: 1660px;
+  padding: 10px;
   /* background-color: aquamarine; */
   margin: 0 auto;
   display: flex;
@@ -203,4 +204,45 @@ main {
   /* font-size: small; */
   padding-top: 16px;
   padding-bottom: 16px;
+}
+/* =========================================== Footer ===================================== */
+footer {
+  background-color: #001931;
+  height: fit-content;
+  margin-bottom: 0px;
+}
+.footer-container {
+  padding: 120px 120px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-links p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.social-links ul {
+  display: flex;
+  gap: 16px;
+}
+.social-links ul li {
+  list-style-type: none;
+  /* padding: 5px; */
+}
+.social-links ul li i {
+  color: #ffffff;
+}
+.footer-end {
+  padding: 120px 120px 30px;
+}
+.footer-end hr {
+  width: 1600px;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0.2;
+}
+.footer-end {
+  color: #ffffff;
+  text-align: center;
 }
