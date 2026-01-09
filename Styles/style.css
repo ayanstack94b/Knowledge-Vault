@@ -1,6 +1,10 @@
 .font-primary {
   font-family: "Inter", sans-serif;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 /* shared styles */
 .button {
   background-color: #30b868;
@@ -10,12 +14,22 @@
   color: #ffffff;
   padding: 12.5px 17px;
 }
-
+.btn-transparent {
+  background-color: transparent;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 12.5px 17px;
+  margin-left: 10px;
+}
+.text-green {
+  color: #30b868;
+  font-size: 60px;
+}
 /* ===========================================Header css===================================== */
 
 /*------------------------------------- Navbar */
-header {
-}
 nav {
   width: 1660px;
   /* background-color: aquamarine; */
@@ -37,4 +51,42 @@ nav ul li a {
   color: rgba(0, 0, 0, 1);
 }
 /* ------------------------------------- Hero section*/
-
+.hero-btn {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #30b868;
+  border-radius: 20px;
+  border: none;
+  /* margin-bottom: 20px; */
+}
+.banner-container {
+  background-image: url("../assets/hero-bg.png");
+  background-repeat: no-repeat;
+  max-width: 2042px;
+  height: 500px;
+  /* background-color: aqua; */
+  background-size: cover;
+  padding-left: 520px;
+  padding-top: 100px;
+}
+.banner-content {
+  justify-content: center;
+  text-align: center;
+  width: 770px;
+  /* border: 2px solid red; */
+}
+.banner-header {
+  font-size: 52px;
+  /* border: 2px solid yellow; */
+  font-weight: 700;
+  line-height: 84px;
+  color: #ffffff;
+}
+.banner-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  padding-bottom: 30px;
+  text-align: center;
+}
