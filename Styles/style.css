@@ -145,3 +145,43 @@ main {
   color: rgba(98, 115, 130, 1);
   width: 300px;
 }
+
+/* The solution section starts */
+
+.solution-container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 60px; */
+}
+/* text-div */
+.text-container {
+  /* border: 1px solid blue; */
+  text-align: left;
+}
+.text-container-para {
+  color: #30b868;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.text-container-heading {
+  font-size: 48px;
+  padding-bottom: 24px;
+}
+
+.container-text-box {
+  color: rgba(98, 115, 130, 1);
+  width: 500px;
+  padding-bottom: 30px;
+}
+.checklist ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.checklist ul li img {
+  padding-top: 15px;
+}
