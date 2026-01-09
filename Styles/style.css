@@ -12,7 +12,11 @@
   border: none;
   border-radius: 5px;
   color: #ffffff;
-  padding: 12.5px 17px;
+  padding: 12px 17px;
+}
+.button:hover {
+  background-color: #279c56;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 .btn-transparent {
   background-color: transparent;
@@ -22,6 +26,11 @@
   color: #ffffff;
   padding: 12.5px 17px;
   margin-left: 10px;
+}
+.btn-transparent:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: #30b868;
+  color: #30b868;
 }
 .text-green {
   color: #30b868;
